@@ -1,0 +1,11 @@
+.App{
+  background:  #FF0266;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  margin-top: 0;
+}

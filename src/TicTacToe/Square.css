@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.square{
+    width: 62.22px;
+    height: 62.22px;
+    border: 3.889px solid #FFFFFF;
+    border-radius: 20.9553px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valueButton{
+    background: transparent;
+    border: 0;
+    min-width: 46.67px;
+    min-height: 46.67px;    
+    font-size: 2.4rem;
+    color: #FFFFFF;
+}
+.valueButton:focus{
+    outline: 0;
+}
+.winnerColor{
+    background: #0336FF;
+
+}
+
+.colorOrange{
+    color: #FFDE03;
+}
+@media only screen and (min-width: 420px) {
+    .square{
+        width: 89.08px;
+        height: 89.08px;
+        border-radius: 30px;
+        border: 5.56757px solid #FFFFFF;
+    }
+    .valueButton{
+        width: 66.81px;
+        height: 66.81px;
+        font-size: 3.8rem;
+    }
+}
